@@ -192,6 +192,17 @@ nav {
   height: 16px;
 }
 
+.share-icon {
+  font-size: 18px;
+  background-image: url('/images/shareicon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 2.4rem;
+  padding: 0.05rem;
+  height: 16px;
+}
+
 #mainAd header p,
 #thirdAd header p {
   margin-top: 14px;
@@ -298,8 +309,8 @@ nav {
   display: grid;
   max-width: 1192px;
   margin: 0 auto;
-  padding: 0 20px;
-  grid-template-rows: repeat(2, 1fr);
+  padding: 30px 20px;
+  grid-template-rows: 1fr 6fr 6fr;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.4rem;
   min-height: 646px;
@@ -313,6 +324,16 @@ div[id^="latest"] {
   background-size: cover;
 }
 
+.latest-news {
+  grid-column: 1/5;
+  line-height: 30.8px;
+  height: 75%;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.42px;
+  color: rgb(255, 68, 34);
+}
+
 .news1 {
   display: flex;
 }
@@ -321,6 +342,21 @@ div[id^="latest"] {
   color: black;
   text-decoration: none;
   margin: 0.5rem 0 0.5rem 0;
+}
+
+.newstitle a:hover {
+  color: #f42;
+  box-shadow: inset 0 -1px 0 rgba(255,68,34,.25);
+}
+
+.newstime {
+  color: #aaa;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.newstime a:hover {
+  color: #555;
 }
 
 .news1 img {
