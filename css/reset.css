@@ -141,4 +141,8 @@ html {
   -moz-appeareance: none;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
 /* END OF CSS RESET */

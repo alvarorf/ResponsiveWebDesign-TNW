@@ -8,13 +8,13 @@
 }
 
 @font-face {
-  font-family: "Shentox"; 
-  src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot");
-  src: url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.woff") format("woff"), url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.ttf") format("truetype"), 
-  url("//db.onlinewebfonts.com/t/5c773d1586db24bd45dfd4af3a4542e7.svg#Shentox") format("svg");
+  font-family: 'Shentox'; 
+  src: url('/fonts/ShentoxW04Regular.woff2') format('woff2'),
+  url('/fonts/ShentoxW04Regular.woff') format('woff'),
+  url('/fonts/ShentoxW04Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
-
-@font-face {font-family: "ShentoxW01-SemiBold"; src: url("//db.onlinewebfonts.com/t/7f33c18ced651fc71cb3490bce72ef67.eot"); src: url("//db.onlinewebfonts.com/t/7f33c18ced651fc71cb3490bce72ef67.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7f33c18ced651fc71cb3490bce72ef67.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7f33c18ced651fc71cb3490bce72ef67.woff") format("woff"), url("//db.onlinewebfonts.com/t/7f33c18ced651fc71cb3490bce72ef67.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7f33c18ced651fc71cb3490bce72ef67.svg#ShentoxW01-SemiBold") format("svg"); }
 
 * {
   box-sizing: border-box;
@@ -90,15 +90,15 @@ nav {
   justify-content: space-between;
   height: 48px;
   background-color: white;
-  font-family: 'ShentoxW01-SemiBold';
-  font-size: 14px;
-  font-weight: 500;
 }
 
 #nav2 a {
   padding-left: 12px;
   color: #aaa;
   text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 #nav2 a:hover {
@@ -301,6 +301,7 @@ nav {
   padding: 0 20px;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
+  gap: 1.4rem;
   min-height: 646px;
 }
 
@@ -312,8 +313,18 @@ div[id^="latest"] {
   background-size: cover;
 }
 
-#news1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Snag_3eff9168-520x270.png");
+.news1 {
+  display: flex;
+}
+
+.newstitle {
+  color: black;
+  text-decoration: none;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.news1 img {
+  width: 100%;
 }
 
 #news2 {
