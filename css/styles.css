@@ -549,12 +549,12 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 .most-popular-title {
   position: absolute;
-  top: 45%;
+  top: 33%;
   padding: 0 10px;
 }
 
 .most-popular-time-pos {
-  top: 65%;
+  top: 45%;
 }
 
 .most-popular-title h5 {
@@ -573,8 +573,8 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 }
 
 .category1 {
-  width: 364px;
-  padding: 14px;
+  width: 392px;
+  padding: 12px;
 }
 
 .category1:first-child {
@@ -585,16 +585,18 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   width: 100%;
 }
 
-.category1 li {
-  width: 354px;
+.category-list {
+  display: flex;
+  align-items: center;
   height: 51px;
   list-style-type: disc;
   border-bottom: 1px solid #eee;
   line-height: 21px;
-  list-style-position: inside;
-}
+  padding: 5px 0 15px 0;
+  /* list-style-position: inside; */
+} 
 
-.category1 li a {
+.category-list a {
   display: block;
   width: 344px;
   height: 39px;
@@ -603,6 +605,22 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   line-height: 19.5px;
   color: #555;
 }
+
+.round-disc {
+  border-radius: 100%;
+  background-color: #f42;
+  width: 5px;
+  height: 5px;
+}
+
+/* .category1 li a::before {
+  display: block;
+height: 4px;
+left: 0;
+position: absolute;
+top: 13px;
+width: 4px;
+} */
 
 .category1 li a:hover {
   color: #000;
