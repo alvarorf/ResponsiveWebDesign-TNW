@@ -537,11 +537,29 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/vek6eka-540x270.jpg");
 }
 
-/* LATEST NEWS */
+/* CATEGORIES */
 
-.funding {
-  height: 335px;
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1192px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: 335px;
   background-color: brown;
+  gap: 1.4rem;
+}
+
+.category1 {
+}
+
+.category1 img {
+  width: 100%;
+}
+
+.category1title {
+  padding: 1rem 0;
 }
 
 .other {
