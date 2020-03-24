@@ -547,9 +547,9 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   margin: 0 auto;
   padding: 30px 20px;
   min-height: 335px;
-  background-color: brown;
-  gap: 1.4rem;
+ /*  gap: 1.4rem; */
 }
+
 
 .category1:first-child {
   position: relative;
@@ -557,12 +557,12 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 .most-popular-title {
   position: absolute;
-  top: 65%;
+  top: 45%;
   padding: 0 10px;
 }
 
 .most-popular-time-pos {
-  top: 90%;
+  top: 65%;
 }
 
 .most-popular-title h5 {
@@ -581,6 +581,8 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 }
 
 .category1 {
+  width: 364px;
+  padding: 14px;
 }
 
 .category1 img {
@@ -589,6 +591,54 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 .category1title {
   padding: 1rem 0;
+}
+
+.latest-category-news-link-container {
+  display: flex;
+  /* position: absolute; */
+  justify-content: space-between;
+  background-color: rgba(255,68,34,.06);
+  margin: 2px 0; 
+}
+
+.latest-category-news-link {
+  width: 244px;
+  height: 86px;
+  padding: 10px 14px 0 14px;
+}
+
+.picture-link {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/header-image-May-Apple’s-AirPower-charging-mat-live-forever-in-limbo.png");
+  background-size: cover;
+  background-position: 50% center;
+  height: 96px;
+  width: 96px;
+  
+}
+
+.latest-category-news-link-container a:hover {
+  text-decoration: underline;
+}
+
+.latest-category-news-link-container h4 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.25;
+  font-size: 14px;
+}
+
+.latest-category-news-link-container h5 {
+  color: #f42;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.latest-category-news-link-container img {
+  height: 96px;
+  width: 96px;
 }
 
 .other {
