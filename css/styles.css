@@ -551,6 +551,35 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   gap: 1.4rem;
 }
 
+.category1:first-child {
+  position: relative;
+}
+
+.most-popular-title {
+  position: absolute;
+  top: 65%;
+  padding: 0 10px;
+}
+
+.most-popular-time-pos {
+  top: 90%;
+}
+
+.most-popular-title h5 {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.5;
+}
+.most-popular-title h3 {
+  color:#fff;
+  font-weight: 700;
+  line-height: 1.1;
+  font: 20px;
+}
+
 .category1 {
 }
 
