@@ -1,24 +1,24 @@
 @font-face {
-  font-family: 'ARS Maquette Pro';
-  src: url('/fonts/ARSMaquettePro-Regular.woff2') format('woff2'),
-  url('/fonts/ARSMaquettePro-Regular.woff') format('woff'),
-  url('/fonts/ARSMaquettePro-Regular.ttf') format('truetype');
+  font-family: "ARS Maquette Pro";
+  src: url("/fonts/ARSMaquettePro-Regular.woff2") format("woff2"),
+    url("/fonts/ARSMaquettePro-Regular.woff") format("woff"),
+    url("/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Shentox'; 
-  src: url('/fonts/ShentoxW04Regular.woff2') format('woff2'),
-  url('/fonts/ShentoxW04Regular.woff') format('woff'),
-  url('/fonts/ShentoxW04Regular.ttf') format('truetype');
+  font-family: "Shentox";
+  src: url("/fonts/ShentoxW04Regular.woff2") format("woff2"),
+    url("/fonts/ShentoxW04Regular.woff") format("woff"),
+    url("/fonts/ShentoxW04Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -68,7 +68,7 @@ nav {
   justify-content: space-between;
   height: 32px;
   background-color: black;
-  font-family: 'ARS Maquette Pro', 'Poppins', sans-serif;
+  font-family: "ARS Maquette Pro", "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 32px;
@@ -119,8 +119,6 @@ nav {
   margin: 0 5px;
 }
 
-
-
 #buttonsnav2 button {
   width: 48px;
   height: 48px;
@@ -141,7 +139,7 @@ nav {
 #techfestival span {
   padding-left: 12px;
   line-height: 40px;
-  font-family: 'ARS Maquette Pro', 'Poppins', sans-serif;
+  font-family: "ARS Maquette Pro", "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -168,7 +166,7 @@ nav {
 }
 
 #mainAd header {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   z-index: 5;
   width: 88%;
@@ -191,7 +189,7 @@ nav {
 
 .accessTime {
   font-size: 18px;
-  background-image: url('/images/clockicon.svg');
+  background-image: url("/images/clockicon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -202,7 +200,7 @@ nav {
 
 .share-icon {
   font-size: 18px;
-  background-image: url('/images/shareicon.svg');
+  background-image: url("/images/shareicon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -264,7 +262,7 @@ nav {
   top: 20px;
   right: 20px;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: white;
@@ -294,7 +292,7 @@ nav {
   bottom: 21px;
   width: 90.1%;
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #secAd {
@@ -390,7 +388,6 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 #latest-funding-info a:hover {
   color: #000;
- 
 }
 
 .news1 {
@@ -400,7 +397,7 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 .invest-story {
   display: flex;
   flex-direction: column;
-  background-color: rgb(255,68,34,.03);
+  background-color: rgb(255, 68, 34, 0.03);
   height: 100%;
 }
 
@@ -425,17 +422,17 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   font-size: 11px;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   color: #000;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .invest-story-title {
   position: relative;
   display: flex;
   align-items: flex-start;
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .invest-story-title h4 {
@@ -447,15 +444,15 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 .invest-story-info {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .invest-story-tags {
   display: flex;
   flex-direction: column;
-  width:100%;
+  width: 100%;
   padding-bottom: 1em;
-  border-bottom: 1px solid rgba(255,68,34,.25);;
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
 }
 
 .invest-story-tags a:hover {
@@ -492,7 +489,7 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 .newstitle a:hover {
   color: #f42;
-  box-shadow: inset 0 -1px 0 rgba(255,68,34,.25);
+  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.25);
 }
 
 .newstime {
@@ -547,12 +544,7 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   margin: 0 auto;
   padding: 30px 20px;
   min-height: 335px;
- /*  gap: 1.4rem; */
-}
-
-
-.category1:first-child {
-  position: relative;
+  /*  gap: 1.4rem; */
 }
 
 .most-popular-title {
@@ -570,11 +562,11 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   color: #fff;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
 }
 .most-popular-title h3 {
-  color:#fff;
+  color: #fff;
   font-weight: 700;
   line-height: 1.1;
   font: 20px;
@@ -585,8 +577,35 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   padding: 14px;
 }
 
+.category1:first-child {
+  position: relative;
+}
+
 .category1 img {
   width: 100%;
+}
+
+.category1 li {
+  width: 354px;
+  height: 51px;
+  list-style-type: disc;
+  border-bottom: 1px solid #eee;
+  line-height: 21px;
+  list-style-position: inside;
+}
+
+.category1 li a {
+  display: block;
+  width: 344px;
+  height: 39px;
+  padding: 6px 0 6px 14px;
+  font-size: 13px;
+  line-height: 19.5px;
+  color: #555;
+}
+
+.category1 li a:hover {
+  color: #000;
 }
 
 .category1title {
@@ -597,8 +616,8 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   display: flex;
   /* position: absolute; */
   justify-content: space-between;
-  background-color: rgba(255,68,34,.06);
-  margin: 2px 0; 
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
 }
 
 .latest-category-news-link {
@@ -613,7 +632,6 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   background-position: 50% center;
   height: 96px;
   width: 96px;
-  
 }
 
 .latest-category-news-link-container a:hover {
@@ -631,7 +649,7 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   color: #f42;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   font-size: 13px;
 }
