@@ -47,22 +47,11 @@ b {
   color: #000;
 }
 
-/* .arrow-title {
-  background-image: url("./images/semiarrow.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border: 3px solid blue;
-} */
-
 .arrow {
-  width: 11px;
-  height: 11px;
-  border-top: 3px solid #f42;
-  border-right: 3px solid #f42;
-  transform: rotate(45deg);
   float: right;
   margin: auto 5px;
+  font-size: 18px;
+  color: #f42;
 }
 
 .atitles {
@@ -72,8 +61,7 @@ b {
 }
 
 .atitles:hover .arrow {
-    border-top: 3px solid black;
-    border-right: 3px solid black;
+   color: #000;
 }
 
 .emptyHeader {
@@ -729,6 +717,12 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.42px;
+}
+
+.latest-news-pos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #latest-funding {
