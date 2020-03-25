@@ -18,6 +18,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Avalon-Bold";
+  src:
+    url("/fonts/Avalon-Bold.woff2") format("woff2"),
+    url("/fonts/Avalon-Bold.woff") format("woff"),
+    url("/fonts/Avalon-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -29,10 +39,22 @@ b {
   color: red;
 }
 
+/* FONTS CLASSES */
+.ars-maquette-font {
+  font-family: "ARS Maquette Pro", "Poppins", sans-serif;
+}
+
+.shentox-font {
+  font-family: Shentox, sans-serif;
+}
+
+.avalon-font {
+  font-family: "Avalon-Bold", "Poppins", sans-serif;
+}
+
 /* FEATURE ARTICLES */
 
 .mainArticles {
-  border: 3px solid green;
   height: 57.5vh;
   padding: 2px 8px 8px 8px;
   display: grid;
@@ -197,7 +219,7 @@ nav {
 .latest-category-news-link {
   width: 244px;
   height: 86px;
-  padding: 10px 14px 0 14px;
+  padding: 10px 0 0 14px;
 }
 
 .latest-category-news-link-container a:hover {
@@ -233,6 +255,7 @@ nav {
   color: black;
   text-decoration: none;
   margin: 0.5rem 0 0.5rem 0;
+  font-weight: 700;
 }
 
 .newstitle a:hover {
@@ -285,9 +308,6 @@ nav {
 .category1 {
   width: 392px;
   padding: 12px;
-}
-
-.category1:first-child {
   position: relative;
 }
 
@@ -336,6 +356,9 @@ nav {
 
 #mainAuthor {
   display: flex;
+  color: hsla(0,0%,100%,.6);
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .nav1 {
@@ -343,7 +366,7 @@ nav {
   justify-content: space-between;
   height: 32px;
   background-color: black;
-  font-family: "ARS Maquette Pro", "Poppins", sans-serif;
+  /* font-family: "ARS Maquette Pro", "Poppins", sans-serif; */
   font-size: 13px;
   font-weight: 500;
   line-height: 32px;
@@ -384,7 +407,7 @@ nav {
   padding-left: 12px;
   color: #aaa;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: Shentox;
   font-size: 14px;
   font-weight: 500;
 }
@@ -440,16 +463,16 @@ nav {
 
 #techfestival {
   height: 30px;
-  background-color: yellow;
+  background-color: #FFDD33;
   display: flex;
   align-items: center;
 }
 
-#techfestival span {
+#techfestival a {
   padding-left: 12px;
   font-family: "ARS Maquette Pro", "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 21px;
 }
 
@@ -495,6 +518,10 @@ nav {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.matthew:hover {
+  color: #fff;
+}
+
 .mainAdColor {
   z-index: 1;
   position: absolute;
@@ -506,8 +533,16 @@ nav {
   background-repeat: no-repeat;
 }
 
+.main-ad-header-authors-text {
+  display: flex;
+  align-items: center;
+}
+
+.main-ad-header-authors-text a:hover {
+  color: #fff;
+}
+
 #mainAd {
-  border: 4px solid blue;
   grid-row: 1/3;
   grid-column: 1/2;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
@@ -536,7 +571,7 @@ nav {
   top: 20px;
   right: 20px;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-size: 14px;
   font-weight: 400;
   color: white;
@@ -566,7 +601,6 @@ nav {
   bottom: 21px;
   width: 90.1%;
   display: block;
-  font-family: "Poppins", sans-serif;
 }
 
 #secAd {
@@ -674,8 +708,9 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 .most-popular-title {
   position: absolute;
-  top: 33%;
-  padding: 0 10px;
+  top: 28%;
+  padding: 0 35px 5px 14px;
+  
 }
 
 .most-popular-time-pos {
