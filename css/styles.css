@@ -486,7 +486,7 @@ nav {
 
 .accessTime {
   font-size: 18px;
-  background-image: url("/images/clockicon.svg");
+  background-image: url("../images/clockicon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -497,7 +497,7 @@ nav {
 
 .share-icon {
   font-size: 18px;
-  background-image: url("/images/shareicon.svg");
+  background-image: url("../images/shareicon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
