@@ -55,8 +55,25 @@ b {
   border: 3px solid blue;
 } */
 
-.arrow-title:hover {
+.arrow {
+  width: 11px;
+  height: 11px;
+  border-top: 3px solid #f42;
+  border-right: 3px solid #f42;
+  transform: rotate(45deg);
+  float: right;
+  margin: auto 5px;
+}
 
+.atitles {
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.atitles:hover .arrow {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
 }
 
 .emptyHeader {

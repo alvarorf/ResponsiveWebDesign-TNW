@@ -141,9 +141,11 @@ html {
   -moz-appeareance: none;
 }
 
-a {
+a,
+div {
   text-decoration: inherit;
   color: inherit;
+  border-color: inherit;
 }
 
 /* END OF CSS RESET */
