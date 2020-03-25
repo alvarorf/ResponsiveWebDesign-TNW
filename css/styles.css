@@ -1,9 +1,9 @@
 @font-face {
   font-family: "ARS Maquette Pro";
   src:
-    url("/fonts/ARSMaquettePro-Regular.woff2") format("woff2"),
-    url("/fonts/ARSMaquettePro-Regular.woff") format("woff"),
-    url("/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
+    url("../fonts/ARSMaquettePro-Regular.woff2") format("woff2"),
+    url("../fonts/ARSMaquettePro-Regular.woff") format("woff"),
+    url("../fonts/ARSMaquettePro-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -11,9 +11,9 @@
 @font-face {
   font-family: "Shentox";
   src:
-    url("/fonts/ShentoxW04Regular.woff2") format("woff2"),
-    url("/fonts/ShentoxW04Regular.woff") format("woff"),
-    url("/fonts/ShentoxW04Regular.ttf") format("truetype");
+    url("../fonts/ShentoxW04Regular.woff2") format("woff2"),
+    url("../fonts/ShentoxW04Regular.woff") format("woff"),
+    url("../fonts/ShentoxW04Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -21,9 +21,9 @@
 @font-face {
   font-family: "Avalon-Bold";
   src:
-    url("/fonts/Avalon-Bold.woff2") format("woff2"),
-    url("/fonts/Avalon-Bold.woff") format("woff"),
-    url("/fonts/Avalon-Bold.ttf") format("truetype");
+    url("../fonts/Avalon-Bold.woff2") format("woff2"),
+    url("../fonts/Avalon-Bold.woff") format("woff"),
+    url("../fonts/Avalon-Bold.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
