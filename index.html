@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
@@ -23,14 +23,6 @@
   <body>
     <header>
       <nav>
-        <div id="mainlogo">
-          <div>
-            <img
-              src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
-              alt="The Next Web Logo"
-            />
-          </div>
-        </div>
         <div class="nav1 ars-maquette-font">
           <ul>
             <li><a href="#" id="news">News</a></li>
@@ -48,15 +40,27 @@
           </ul>
         </div>
         <div id="nav2">
-          <ul>
-            <li><a href="#">LATEST</a></li>
-            <li><a href="#">HARD FORK</a></li>
-            <li><a href="#">PLUGGED</a></li>
-            <li><a href="#">FUNDAMENTALS</a></li>
-            <li><a href="#">README</a></li>
-            <li><a href="#">GROWTH QUARTERS</a></li>
-            <li><a href="#">NEUTRAL</a></li>
-          </ul>
+
+          <div>
+            <div id="mainlogo">
+              <div>
+                <img
+                  src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+                  alt="The Next Web Logo"
+                />
+              </div>
+            </div>
+            <ul>
+              <li><a href="#">LATEST</a></li>
+              <li><a href="#">HARD FORK</a></li>
+              <li><a href="#">PLUGGED</a></li>
+              <li><a href="#">FUNDAMENTALS</a></li>
+              <li><a href="#">README</a></li>
+              <li><a href="#">GROWTH QUARTERS</a></li>
+              <li><a href="#">NEUTRAL</a></li>
+            </ul>
+          </div>
+
           <div id="buttonsnav2">
             <button id="magnifier"><img src="./images/magnifier.jpg" alt="search icon"></button>
             <button id="menu"><i class="fas fa-bars"></i></button>
@@ -1415,4 +1419,31 @@
       </div>
     </footer>
   </body>
+  <script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("techfestival");
+var nav2 = document.getElementById("nav2");
+var logo = document.getElementById("mainlogo");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky2");
+    nav2.classList.add("sticky");
+    logo.style.display = "flex";
+    
+
+  } else {
+    header.classList.remove("sticky2");
+    nav2.classList.remove("sticky");
+    logo.style.display="none";
+  }
+} 
+    </script>
 </html>

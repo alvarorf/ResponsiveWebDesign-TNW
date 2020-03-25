@@ -54,6 +54,20 @@ b {
   color: #f42;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.sticky2 {
+  position: fixed;
+  top: 48px;
+  width: 100%;
+  z-index: 5;
+}
+
 .atitles {
   display: flex;
   align-items: center;
@@ -127,7 +141,7 @@ nav {
   display: none;
   float: left;
   width: 106px;
-  height: 80px;
+  height: 100%;
   background-color: red;
 }
 
@@ -367,20 +381,20 @@ nav {
   width: 96px;
 }
 
-.news div:first-child {
+
+
+/* .news div:first-child {
   grid-column: 1/5;
-}
+} */
 
 #mainlogo div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
+  line-height: 50px;
 }
 
 #mainlogo img {
   height: 16px;
   width: 66px;
+  margin-left: 20px;
 }
 
 #mainAuthor {
@@ -841,3 +855,13 @@ footer {
   width: 65px;
   height: 10px;
 }
+
+/*Media queries*/
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
