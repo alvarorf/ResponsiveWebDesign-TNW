@@ -43,6 +43,22 @@ b {
   color: #f42;
 }
 
+.colortitles a:hover {
+  color: #000;
+}
+
+/* .arrow-title {
+  background-image: url("./images/semiarrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 3px solid blue;
+} */
+
+.arrow-title:hover {
+
+}
+
 .emptyHeader {
   display: none;
 }
@@ -406,8 +422,13 @@ nav {
 }
 
 #addinfo a {
-  color: white;
+  color: #aaa;
   text-decoration: none;
+  font-size: 13px;
+}
+
+#addinfo a:hover {
+  color: #fff;
 }
 
 #nav2 a {
@@ -746,17 +767,7 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 }
 
 .deals {
-  display: grid;
-  grid-template-areas:
-    "header header header header"
-    "deal1 deal2 deal3 deal4"
-    "deal5 deal6 deal7 deal8";
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2%;
-  min-height: 640px;
-  background-color: darkslategrey;
-  margin: 0 auto;
-  padding: 2%;
+  margin-bottom: 60px;
 }
 
 #alldeals {
@@ -778,6 +789,17 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   padding: 8rem 0;
 }
 
+.previous-price {
+  text-decoration: line-through;
+  font-size: 13px;
+  margin-right: 4px;
+}
+
+.new-price {
+  font-size: 16px;
+  color: #555;
+}
+
 footer {
   height: 258px;
   background-color: gainsboro;
@@ -793,9 +815,10 @@ footer {
 #partner-information {
   background-color: black;
   height: 97px;
-  color: white;
+  color: #aaa;
   line-height: 97px;
   text-align: center;
+  font-size: 13px;
 }
 
 #mainLogoFooter {
