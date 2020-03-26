@@ -24,7 +24,7 @@
     <header>
       <nav>
         <div class="nav1 ars-maquette-font">
-          <ul>
+          <ul class="nav1-list">
             <li><a href="#" id="news">News</a></li>
             <li><a href="#">TNW2020</a></li>
             <li><a href="#">Business</a></li>
@@ -39,7 +39,7 @@
             <li><a href="#">Contacts</a></li>
           </ul>
         </div>
-        <div id="nav2">
+        <div class="sticky" id="nav2">
 
           <div id="logocontainer">
             <div id="mainlogo">
@@ -56,8 +56,8 @@
               <li><a href="#">PLUGGED</a></li>
               <li><a href="#">FUNDAMENTALS</a></li>
               <li><a href="#">README</a></li>
-              <li><a href="#">GROWTH QUARTERS</a></li>
-              <li><a href="#">NEUTRAL</a></li>
+              <li><a class="remove-element" href="#">GROWTH QUARTERS</a></li>
+              <li><a class="remove-element" href="#">NEUTRAL</a></li>
             </ul>
           </div>
 
@@ -66,7 +66,7 @@
             <button id="menu"><i class="fas fa-bars"></i></button>
           </div>
         </div>
-        <div id="techfestival">
+        <div class="sticky2" id="techfestival">
           <a id="techfesta" href="#">Did you know we have a TECH FESTIVAL? Check it out →</a>
         </div>
       </nav>
@@ -1436,19 +1436,20 @@ var sticky = logo.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if(width768px.matches){
+  /* if(width768px.matches) {*/
     if (window.pageYOffset > sticky) {
-    header.classList.add("sticky2");
-    nav2.classList.add("sticky");
-    logo.style.display = "flex";
-    header.classList.add("moveright"); 
+      header.classList.add("sticky2");
+      nav2.classList.add("sticky");
     }
+ /*    logo.style.display = "flex";
+    header.classList.add("moveright");  */
     else {
     header.classList.remove("sticky2");
     nav2.classList.remove("sticky");
-    header.classList.remove("moveright");
+   /*  header.classList.remove("moveright"); */
+    }
   }
-  }
+  /* }
   else if (width1024px.matches){
     if (window.pageYOffset > sticky) {
     header.classList.add("sticky2");
@@ -1462,7 +1463,7 @@ function myFunction() {
     header.classList.remove("moveright");
   }
   }
-  else if (width1024px.matches) {
+  else if (minwidth1024px.matches) {
     if (window.pageYOffset > sticky) {
     header.classList.add("sticky2");
     nav2.classList.add("sticky");
@@ -1475,7 +1476,6 @@ function myFunction() {
     logo.style.display="none";
     header.classList.remove("moveright");
   }
-  }
-} 
-    </script>
+  } */
+  </script>
 </html>

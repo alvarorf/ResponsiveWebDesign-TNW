@@ -881,8 +881,24 @@ footer {
 }
 
   #mainlogo div {
-    line-height: 85px;
+    line-height: 125px;
 }
+
+.nav1-list {
+  margin-left: 100px;
+}
+
+#techfestival {
+  padding-left: 110px;
+}
+
+}
+
+@media only screen and (max-width: 1214px) {
+  .remove-element {
+    display: none;
+  }
+  
 
 }
 
@@ -901,12 +917,19 @@ footer {
 
   #mainlogo {
     display: flex;
+    margin-top: 0;
+    height: 48px;
+  }
+
+  #mainlogo div {
+    line-height: 50px;
   }
 
   #techfestival {
     height: 60px;
     justify-content: center;
     padding-left: 0;
+
   }
 }
 
