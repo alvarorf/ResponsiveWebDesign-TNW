@@ -23,7 +23,7 @@
   <body>
     <header>
       <nav>
-        <div class="nav1 ars-maquette-font">
+        <div class="nav1 ars-maquette-font" id="black-navbar">
           <ul class="nav1-list">
             <li><a href="#" id="news">News</a></li>
             <li><a href="#">TNW2020</a></li>
@@ -73,7 +73,7 @@
     </header>
 
     <main>
-      <section class="mainArticles">
+      <section class="mainArticles" id="mainArticlesSection">
         <h2 class="emptyHeader">Header</h2>
         <article id="mainAd">
           <h2 class="emptyHeader">Header</h2>
@@ -1453,14 +1453,16 @@ window.onscroll = function() {myFunction()};
 
 // Get the header
 var header = document.getElementById("techfestival");
-var techfesta=document.getElementById("techfesta");
+/* var techfesta=document.getElementById("techfesta"); */
 var nav2 = document.getElementById("nav2");
+var mainArticlesSection = document.getElementById("mainArticlesSection")
 var logo = document.getElementById("mainlogo");
-const width768px = window.matchMedia("(max-width: 768px)");
+/* const width768px = window.matchMedia("(max-width: 768px)");
 const width1024px = window.matchMedia("(max-width: 1024px)");
-const minwidth1024px = window.matchMedia("(min-width: 1024px)");
+const minwidth1024px = window.matchMedia("(min-width: 1024px)"); */
 // Get the offset position of the navbar
 var sticky = logo.offsetTop;
+console.log(sticky);
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
@@ -1468,12 +1470,17 @@ function myFunction() {
     if (window.pageYOffset > sticky) {
       header.classList.add("sticky2");
       nav2.classList.add("sticky");
+      nav2.classList.add("change-top-pos-navbar2");
+      header.classList.add("change-top-pos-techfestival");
     }
  /*    logo.style.display = "flex";
     header.classList.add("moveright");  */
     else {
     header.classList.remove("sticky2");
     nav2.classList.remove("sticky");
+    mainArticlesSection.style.marginTop = "4px";
+    
+
    /*  header.classList.remove("moveright"); */
     }
   }
