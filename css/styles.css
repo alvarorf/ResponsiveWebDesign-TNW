@@ -138,7 +138,7 @@ b {
 }
 
 nav {
-  background-color: aqua;
+  background-color: black;
 }
 
 #mainlogo {
@@ -875,8 +875,14 @@ footer {
 /*Media queries*/
 @media only screen and (max-width: 1024px) {
   #mainlogo {
-    display: none;
-  }
+    display: flex;
+    margin-top: -32px;
+    height: 80px;
+}
+
+  #mainlogo div {
+    line-height: 85px;
+}
 
 }
 

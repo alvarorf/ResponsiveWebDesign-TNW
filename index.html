@@ -1429,24 +1429,52 @@ var techfesta=document.getElementById("techfesta");
 var nav2 = document.getElementById("nav2");
 var logo = document.getElementById("mainlogo");
 const width768px = window.matchMedia("(max-width: 768px)");
-
+const width1024px = window.matchMedia("(max-width: 1024px)");
+const minwidth1024px = window.matchMedia("(min-width: 1024px)");
 // Get the offset position of the navbar
 var sticky = logo.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset > sticky) {
+  if(width768px.matches){
+    if (window.pageYOffset > sticky) {
     header.classList.add("sticky2");
     nav2.classList.add("sticky");
     logo.style.display = "flex";
     header.classList.add("moveright"); 
     }
-  
-   else {
+    else {
+    header.classList.remove("sticky2");
+    nav2.classList.remove("sticky");
+    header.classList.remove("moveright");
+  }
+  }
+  else if (width1024px.matches){
+    if (window.pageYOffset > sticky) {
+    header.classList.add("sticky2");
+    nav2.classList.add("sticky");
+    logo.style.display = "flex";
+    header.classList.add("moveright"); 
+    }
+    else {
+    header.classList.remove("sticky2");
+    nav2.classList.remove("sticky");
+    header.classList.remove("moveright");
+  }
+  }
+  else if (width1024px.matches) {
+    if (window.pageYOffset > sticky) {
+    header.classList.add("sticky2");
+    nav2.classList.add("sticky");
+    logo.style.display = "flex";
+    header.classList.add("moveright"); 
+    }
+    else {
     header.classList.remove("sticky2");
     nav2.classList.remove("sticky");
     logo.style.display="none";
     header.classList.remove("moveright");
+  }
   }
 } 
     </script>
