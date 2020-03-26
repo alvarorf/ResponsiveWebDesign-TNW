@@ -65,11 +65,11 @@ b {
   position: fixed;
   top: 48px;
   width: 100%;
-  z-index: 10;
+  z-index: 10;  
 }
 
 .moveright {
-  margin-left: 110px;
+  padding-left: 110px;
 }
 
 .atitles {
@@ -874,6 +874,9 @@ footer {
 
 /*Media queries*/
 @media only screen and (max-width: 1024px) {
+  #mainlogo {
+    display: none;
+  }
 
 }
 
@@ -897,6 +900,7 @@ footer {
   #techfestival {
     height: 60px;
     justify-content: center;
+    padding-left: 0;
   }
 }
 
