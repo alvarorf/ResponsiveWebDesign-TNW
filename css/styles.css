@@ -102,20 +102,20 @@ b {
 /* FEATURE ARTICLES */
 
 .mainArticles {
-  height: 57.5vh;
-  padding: 2px 8px 8px 8px;
+  min-height: 344px;
+  padding: 0;
   display: grid;
   grid-gap: 10px;
   grid-row: repeat(2, 1fr);
   grid-template-columns: 2fr 1fr;
   overflow: hidden;
+  margin: 48px 4px 0 4px;
 }
 
 .mainArticles article {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
 }
 
 #mainAd header {
@@ -572,7 +572,7 @@ nav {
 }
 
 #mainAd header p,
-#thirdAd header p {
+.thirdAd header p {
   margin-top: 14px;
   font-size: 12px;
   font-weight: 400;
@@ -657,7 +657,7 @@ nav {
   font-weight: 700;
 }
 
-#thirdAd header,
+.thirdAd header,
 #secAdTit {
   z-index: 7;
   position: absolute;
@@ -675,7 +675,7 @@ nav {
   font-size: 13px;
 }
 
-#thirdAd {
+.thirdAd {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-796x417.png");
 }
 
@@ -890,6 +890,26 @@ footer {
 
 #techfestival {
   padding-left: 110px;
+}
+
+.mainAdGradient, #mainAdDiv {
+  display: none;
+}
+
+header h2 {
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -.015em;
+}
+
+.thirdAd header h2 {
+  font-size: 20px;
+}
+
+.mainArticles {
+  height: 288px;
+  padding: 4px;
+  margin: 43px 4px;
 }
 
 }
