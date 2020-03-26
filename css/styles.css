@@ -58,14 +58,18 @@ b {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
 }
 
 .sticky2 {
   position: fixed;
   top: 48px;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
+}
+
+.moveright {
+  margin-left: 110px;
 }
 
 .atitles {
@@ -142,7 +146,12 @@ nav {
   float: left;
   width: 106px;
   height: 100%;
-  background-color: red;
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  z-index: 10;
+}
+
+#logocontainer {
+  width: 100%;
 }
 
 .invest-story {
@@ -381,12 +390,6 @@ nav {
   width: 96px;
 }
 
-
-
-/* .news div:first-child {
-  grid-column: 1/5;
-} */
-
 #mainlogo div {
   line-height: 50px;
 }
@@ -498,6 +501,10 @@ nav {
   margin: 0 5px;
 }
 
+#buttonsnav2 {
+  display: flex;
+}
+
 #buttonsnav2 button {
   border: 0;
   border-left: 1px solid #eee;
@@ -508,6 +515,15 @@ nav {
 
 #menu {
   display: none;
+  color: #f42;
+}
+
+#menu i {
+  display: inline;
+  height: 30%;
+  width: 30%;
+  margin: 0 auto;
+  line-height: 45px;
 }
 
 #techfestival {
@@ -862,6 +878,25 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  #nav2 ul {
+    display: none;
+  }
 
+  #menu {
+    display: flex;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  #mainlogo {
+    display: flex;
+  }
+
+  #techfestival {
+    height: 60px;
+    justify-content: center;
+  }
 }
 

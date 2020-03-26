@@ -41,7 +41,7 @@
         </div>
         <div id="nav2">
 
-          <div>
+          <div id="logocontainer">
             <div id="mainlogo">
               <div>
                 <img
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div id="techfestival">
-          <a href="#">Did you know we have a TECH FESTIVAL? Check it out →</a>
+          <a id="techfesta" href="#">Did you know we have a TECH FESTIVAL? Check it out →</a>
         </div>
       </nav>
     </header>
@@ -1425,6 +1425,7 @@ window.onscroll = function() {myFunction()};
 
 // Get the header
 var header = document.getElementById("techfestival");
+var techfesta=document.getElementById("techfestivala");
 var nav2 = document.getElementById("nav2");
 var logo = document.getElementById("mainlogo");
 
@@ -1437,12 +1438,14 @@ function myFunction() {
     header.classList.add("sticky2");
     nav2.classList.add("sticky");
     logo.style.display = "flex";
+    techfesta.classList.add("moveright");
     
 
   } else {
     header.classList.remove("sticky2");
     nav2.classList.remove("sticky");
     logo.style.display="none";
+    techfesta.classList.remove("moveright");
   }
 } 
     </script>
