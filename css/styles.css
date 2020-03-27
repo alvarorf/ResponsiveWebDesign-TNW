@@ -323,7 +323,7 @@ nav {
   font-weight: 700;
 }
 
-.newstitle a:hover {
+.newstitle [href="https://thenextweb.com/offers/2020/03/23/increase-your-productivity-while-working-from-home-with-these-four-apps/"]:hover {
   color: #f42;
   box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.25);
 }
@@ -332,6 +332,11 @@ nav {
   color: #aaa;
   font-size: 13px;
   line-height: 20px;
+}
+
+.newstime-subtitle {
+  font-weight: 500;
+  padding-top: 8px;
 }
 
 .newstime a:hover {
@@ -1014,8 +1019,10 @@ header h2 {
 
   .newstitle {
     width: 85%;
-    margin-top: 0px;
+    margin-top: 0;
+    font-size: 14px;
   }
+
 }
 
 
