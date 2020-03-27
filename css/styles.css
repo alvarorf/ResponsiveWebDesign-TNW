@@ -35,6 +35,10 @@
   margin: 0;
 }
 
+nav {
+  min-width: 200px;
+}
+
 b {
   color: red;
 }
@@ -709,7 +713,7 @@ nav {
   grid-template-rows: 1fr 6fr 6fr;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.4rem;
-  min-height: 646px;
+  min-height: 300px;
 }
 
 .news2 {
@@ -719,7 +723,7 @@ nav {
     "art1 art2 art3 art4";
   max-width: 1192px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 0 20px 0 20px;
   grid-template-rows: 1fr 6fr;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.4rem;
@@ -899,6 +903,10 @@ footer {
   height: 80px;
 }
 
+#funding4 {
+  display: none;
+}
+
 #mainlogo img {
   margin-bottom: 15px;
 }
@@ -933,6 +941,19 @@ header h2 {
   height: 288px;
   padding: 4px;
   margin: 110px 4px 0 4px;
+}
+
+.news {
+  gap: 1rem;
+}
+
+.news2 {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.news article {
+  max-height: 230px;
+  padding: 10px 0;
 }
 
 }
@@ -1007,11 +1028,13 @@ header h2 {
   .newsarticle-maindiv {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 8px;
   }
 
   .news {
     display: block;
   }
+
   .news1 img {
     height: 75px;
     width: 75px;
@@ -1019,7 +1042,7 @@ header h2 {
 
   .newstitle {
     width: 85%;
-    margin-top: 0;
+    margin: 0 0 0 8px;
     font-size: 14px;
   }
 
