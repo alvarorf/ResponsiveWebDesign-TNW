@@ -54,6 +54,13 @@ b {
   color: #f42;
 }
 
+#black-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .sticky {
   position: fixed;
   top: 30px;
@@ -109,7 +116,7 @@ b {
   grid-row: repeat(2, 1fr);
   grid-template-columns: 2fr 1fr;
   overflow: hidden;
-  margin: 78px 4px 0 4px;
+  margin: 110px 4px 0 4px;
 }
 
 .mainArticles article {
@@ -882,14 +889,19 @@ footer {
 
 /*Media queries*/
 @media only screen and (max-width: 1024px) {
-  #mainlogo {
-    display: flex;
-    margin-top: -32px;
-    height: 80px;
+
+#mainlogo {
+  display: flex;
+  margin-top: -32px;
+  height: 80px;
 }
 
-  #mainlogo div {
-    line-height: 125px;
+#mainlogo img {
+  margin-bottom: 15px;
+}
+
+#mainlogo div {
+  line-height: 125px;
 }
 
 .nav1-list {
@@ -917,7 +929,7 @@ header h2 {
 .mainArticles {
   height: 288px;
   padding: 4px;
-  margin: 43px 4px;
+  margin: 110px 4px;
 }
 
 }
@@ -931,6 +943,10 @@ header h2 {
 }
 
 @media only screen and (max-width: 768px) {
+  #nav2 {
+    margin-top: -32px;
+  }
+
   #nav2 ul {
     display: none;
   }
@@ -943,10 +959,27 @@ header h2 {
     display: none;
   }
 
+  #mainArticlesSection {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+  }
+
+  #mainAd {
+    height: 30vh;
+  }
+
+  .thirdAd {
+    height: 30vh;
+  }
+
   #mainlogo {
     display: flex;
     margin-top: 0;
     height: 48px;
+  }
+
+  #mainlogo img {
+    margin-bottom: 0;
   }
 
   #mainlogo div {
@@ -957,7 +990,10 @@ header h2 {
     height: 60px;
     justify-content: center;
     padding-left: 0;
+    margin-top: -32px;
 
   }
 }
+
+
 
