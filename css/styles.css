@@ -351,7 +351,7 @@ b {
 .newstime {
   color: #aaa;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .newstime-subtitle {
@@ -368,7 +368,7 @@ b {
 }
 
 .category1 {
-  width: 392px;
+  min-width: 100px;
   padding: 12px;
   position: relative;
 }
@@ -437,10 +437,6 @@ b {
   padding-left: 12px;
 }
 
-#news {
-  color: white;
-}
-
 #nav2 {
   display: flex;
   justify-content: space-between;
@@ -491,6 +487,12 @@ b {
   color: #aaa;
   text-decoration: none;
   font-size: 13px;
+}
+#techfestival {
+  height: 30px;
+  background-color: #fd3;
+  display: flex;
+  align-items: center;
 }
 
 #techfestival a {
@@ -670,8 +672,8 @@ b {
   max-width: 1192px;
   margin: 0 auto;
   padding: 30px 20px;
-  grid-template-rows: 1fr 6fr 6fr;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 6fr 6fr;
   gap: 1.4rem;
   min-height: 300px;
 }
@@ -761,16 +763,24 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   margin: 0 auto;
   padding: 30px 20px;
   min-height: 335px;
+  overflow: hidden;
+}
+
+.categories-title-wrapper {
+  position: relative;
 }
 
 .most-popular-title {
   position: absolute;
-  top: 28%;
-  padding: 0 35px 5px 14px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 35px 35px 14px;
+  margin-top: 20px;
 }
 
 .most-popular-time-pos {
-  top: 45%;
+  padding-bottom: 15px;
 }
 
 .most-popular-title h5 {
@@ -820,11 +830,13 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 .previous-price {
   text-decoration: line-through;
   font-size: 13px;
+  font-weight: 400;
   margin-right: 4px;
 }
 
 .new-price {
   font-size: 16px;
+  font-weight: 400;
   color: #555;
 }
 
@@ -913,10 +925,27 @@ Media queries
 
   .news {
     gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 6fr 6fr 6fr;
+    grid-auto-flow: column;
   }
+
+  .newstitle a[href="https://thenextweb.com/offers/2020/03/23/increase-your-productivity-while-working-from-home-with-these-four-apps/"] {
+    font-size: 14px;
+  }
+
+  .newstime a {
+    font-size: 12px;
+  }
+
+
 
   .news2 {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-news {
+    grid-column: 1/4;
   }
 
   .news article {
@@ -933,6 +962,14 @@ Media queries
 
   #indextitle {
     margin-bottom: 15px;
+  }
+
+  .categories {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .deals article {
+    margin-bottom: 80px;
   }
 }
 
@@ -1018,7 +1055,7 @@ Media queries
 
   .newstitle {
     width: 85%;
-    margin: 0 0 0 8px;
+    margin: 0 20px 0 8px;;
     font-size: 14px;
   }
 
@@ -1039,6 +1076,8 @@ Media queries
 
   .latest-fund-title {
     margin-bottom: 0;
+    height: 200px;
+    justify-content: space-around;
   }
 
   .news2 {
@@ -1052,4 +1091,38 @@ Media queries
     margin-bottom: 5px;
     margin-top: 15px;
   }
+
+  .categories {
+    display: block;
+  }
+
+  .categories-title-wrapper {
+    position: relative;
+  }
+
+  .category1:first-child {
+    margin-top: 100px;
+  }
+
+  .most-popular-time-pos {
+    margin-left: 8px;
+  }
+  .deals {
+    margin-bottom: 0;
+  }
+
+  .deals article {
+
+    margin-bottom: 0;
+  }
+  
+  #partner-information {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      line-height: 20px;
+  }
+
 }
+
