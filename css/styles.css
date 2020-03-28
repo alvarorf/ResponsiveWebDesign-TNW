@@ -147,7 +147,8 @@ b {
   color: #f42;
 }
 
-.colortitles a:hover {
+.colortitles a:hover,
+.colortitles i:hover {
   color: #000;
 }
 
@@ -156,6 +157,10 @@ b {
   margin: auto 5px;
   font-size: 18px;
   color: #f42;
+}
+
+.arrow:hover {
+  color: inherit;
 }
 
 #black-navbar {
@@ -190,6 +195,14 @@ b {
 }
 
 .atitles:hover .arrow {
+  color: #000;
+}
+
+.categories-title-wrapper h2 {
+  width: 30%;
+}
+
+.categories-title-wrapper h2:hover {
   color: #000;
 }
 
@@ -488,6 +501,7 @@ b {
   text-decoration: none;
   font-size: 13px;
 }
+
 #techfestival {
   height: 30px;
   background-color: #fd3;
@@ -938,8 +952,6 @@ Media queries
     font-size: 12px;
   }
 
-
-
   .news2 {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1055,7 +1067,7 @@ Media queries
 
   .newstitle {
     width: 85%;
-    margin: 0 20px 0 8px;;
+    margin: 0 20px 0 8px;
     font-size: 14px;
   }
 
@@ -1107,22 +1119,20 @@ Media queries
   .most-popular-time-pos {
     margin-left: 8px;
   }
+
   .deals {
     margin-bottom: 0;
   }
 
   .deals article {
-
     margin-bottom: 0;
   }
-  
+
   #partner-information {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
   }
-
 }
-
