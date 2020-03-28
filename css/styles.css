@@ -573,8 +573,7 @@ b {
 }
 
 .thirdAd header p,
-#mainAd header p 
-{
+#mainAd header p {
   margin-top: 14px;
   font-size: 12px;
   font-weight: 400;
@@ -1016,7 +1015,7 @@ Media queries
   #mainlogo div {
     line-height: 50px;
   }
-  
+
   .newstitle {
     width: 85%;
     margin: 0 0 0 8px;
