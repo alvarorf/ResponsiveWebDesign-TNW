@@ -1,22 +1,21 @@
 # Responsive Web Design: The Next Web's clone
 
-> Welcome to our clone of the website [link](https://thenextweb.com/) , built with html and css. Please enjoy and leave a comment. The purpose of this exercise is to make use of responsive design principles in order to make the website responsive. In particular, media queries are used extensively in order to modify the layout according to different viewport sizes. 
+> Welcome to our clone of the website [link](https://thenextweb.com/) , built with html and css. Please enjoy and leave a comment. The purpose of this exercise is to make use of responsive design principles in order to make the website responsive. In particular, media queries are used extensively in order to modify the layout according to different viewport sizes. Large screen sizes are considered to be over 1024 px and is the default. Medium screen sizes are considered to be between 768px and 1024px and small screen sizes are considered to be less than 768px.
 
-
-# For a large screen size
+# For a large screen size (Desktop size)
 
 ![screenshot](/images/Fullsize.jpeg)
 
-# For a medium screen size
+# For a medium screen size (Tablet size)
 
 ![screenshot](/images/Mediumsize.jpeg)
 
-# For a small screen size
+# For a small screen size (Phone size)
 
 ![screenshot](/images/Smallsize.jpeg)
 
 ## Live Demo
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/ResponsiveWebDesign-TNW/fd82247f676f5d5757972a9a5a7b33fe020df2f9/index.html)
 
 ## Getting Started
 
