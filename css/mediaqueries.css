@@ -29,6 +29,11 @@ Media queries
     padding-left: 110px;
   }
 
+  .mainArticlesSection {
+    margin-bottom: 0;
+    height: 60vh;
+  }
+
   .mainAdGradient,
   .mainAdDiv {
     display: none;
@@ -117,19 +122,12 @@ Media queries
 
   .mainArticles {
     display: block;
-    margin-bottom: 180px;
-  }
-
-  .mainArticlesSection {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    margin-bottom: 0;
-    height: 70vh;
+    margin-bottom: 80px;
   }
 
   .mainAd,
   .thirdAd {
-    height: 22vh;
+    height: 28.7vh;
     margin: 0 0 10px 0;
   }
 
@@ -140,14 +138,27 @@ Media queries
     margin-top: -32px;
   }
 
+  .mainArticlesSection {
+    margin-bottom: 0;
+    height: 90vh;
+  }
+
   .mainArticlesSection header h2 {
     font-size: 20px;
+  }
+
+  .categories-margin-768px {
+    margin-top: -80px;
   }
 
   .newsarticle-maindiv {
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
+  }
+
+  .latest-news {
+    width: 100%;
   }
 
   .news {
