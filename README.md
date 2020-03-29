@@ -1,54 +1,25 @@
-# Smashing Magazine Heatmap
+# Responsive Web Design: The Next Web's clone
 
-> Welcome to my Smashing Magazine's heatmap, built with html and css. Please enjoy and leave a comment. The purpose of this exercise is to show which areas of the webpage are more visually striking and for that a gray scale is used. The darkers colors (with the exception of the main title, where the white color means that it is the most vissualy appealing section of the website) represent a greater degree of visual appeal, while the lighter colors represent less visually striking parts of the website.
+> Welcome to our clone of the website [link](https://thenextweb.com/) , built with html and css. Please enjoy and leave a comment. The purpose of this exercise is to make use of responsive design principles in order to make the website responsive. In particular, media queries are used extensively in order to modify the layout according to different viewport sizes. Large screen sizes are considered to be over 1024 px and is the default. Medium screen sizes are considered to be between 768px and 1024px and small screen sizes are considered to be less than 768px.
 
-![screenshot](/images/screenshot.jpeg)
+# For a large screen size (Desktop size)
 
-Additional description about the project and its features.
+![screenshot](/images/Fullsize.png)
 
-## Built With
+# For a medium screen size (Tablet size)
 
-- HTML,
-- CSS,
-- Coffee 
+![screenshot](/images/Mediumsize.png)
+
+# For a small screen size (Phone size)
+
+![screenshot](/images/Smallsize.png)
 
 ## Live Demo
-
-[Live Demo Link](https://rawcdn.githack.com/alvarorf/Design-UX-UI-Teardown/860bd95ba1a6b7e9de8189a1c8d6c4c781779e29/index.html)
-
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/ResponsiveWebDesign-TNW/6533bf9c5f334b516891eda2fdfbe3593acba00d/index.html)
 
 ## Getting Started
 
 Simply download the zip and decompress. Once decompressed, double click or open index.html in any web browser. 
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-Any web browser will do, Mozilla, Safari, or Chrome. 
-
-### Setup
-
-None. You just need to decompress and drag and drop onto the browser. 
-
-### Install
-
-None needed. 
-
-### Usage
-
-Development playground. 
-
-### Run tests
-
-Text editor, any IDE.
-
-### Deployment
-
-Localhost. 
-
-
 
 ## Authors
 
@@ -58,21 +29,11 @@ Localhost.
 - Twitter: [@aaruizf](https://twitter.com/aaruizf)
 - Linkedin: [linkedin](https://www.linkedin.com/in/alvaro-r-22810915a/)
 
-## 🤝 Contributing
+👤 **Fernando Bahamondes**
 
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose reads this code.
-- Inspiration, coffee and code. 
-- BTC donations accepted. 
+- Github: [@ferbaco86](https://github.com/ferbaco86 )
+- Twitter: [@ferbac0](https://twitter.com/ferbac0 )
+- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa/ )
 
 ## 📝 License
 
