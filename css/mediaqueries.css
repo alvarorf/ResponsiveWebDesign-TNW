@@ -3,21 +3,21 @@ Media queries
 */
 
 @media only screen and (max-width: 1024px) {
-  #mainlogo {
+  .mainlogo {
     display: flex;
     margin-top: -32px;
     height: 80px;
   }
 
-  #funding4 {
+  .funding4 {
     display: none;
   }
 
-  #mainlogo img {
+  .mainlogo img {
     margin-bottom: 15px;
   }
 
-  #mainlogo div {
+  .mainlogo div {
     line-height: 125px;
   }
 
@@ -25,12 +25,12 @@ Media queries
     margin-left: 100px;
   }
 
-  #techfestival {
+  .techfestival {
     padding-left: 110px;
   }
 
   .mainAdGradient,
-  #mainAdDiv {
+  .mainAdDiv {
     display: none;
   }
 
@@ -42,12 +42,6 @@ Media queries
 
   .thirdAd header h2 {
     font-size: 20px;
-  }
-
-  .mainArticles {
-    height: 288px;
-    padding: 4px;
-    margin: 110px 4px 0 4px;
   }
 
   .news {
@@ -85,7 +79,7 @@ Media queries
     margin-bottom: 10px;
   }
 
-  #indextitle {
+  .indextitle {
     margin-bottom: 15px;
   }
 
@@ -105,15 +99,15 @@ Media queries
 }
 
 @media only screen and (max-width: 768px) {
-  #nav2 {
+  .nav2 {
     margin-top: -32px;
   }
 
-  #nav2 ul {
+  .nav2 ul {
     display: none;
   }
 
-  #menu {
+  .menu {
     display: flex;
   }
 
@@ -123,29 +117,30 @@ Media queries
 
   .mainArticles {
     display: block;
+    margin-bottom: 180px;
   }
 
-  #mainArticlesSection {
+  .mainArticlesSection {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     margin-bottom: 0;
     height: 70vh;
   }
 
-  #mainAd,
+  .mainAd,
   .thirdAd {
     height: 22vh;
     margin: 0 0 10px 0;
   }
 
-  #techfestival {
+  .techfestival {
     height: 60px;
     justify-content: center;
     padding-left: 0;
     margin-top: -32px;
   }
 
-  #mainArticlesSection header h2 {
+  .mainArticlesSection header h2 {
     font-size: 20px;
   }
 
@@ -164,17 +159,17 @@ Media queries
     width: 75px;
   }
 
-  #mainlogo {
+  .mainlogo {
     display: flex;
     margin-top: 0;
     height: 48px;
   }
 
-  #mainlogo img {
+  .mainlogo img {
     margin-bottom: 0;
   }
 
-  #mainlogo div {
+  .mainlogo div {
     line-height: 50px;
   }
 
@@ -188,20 +183,20 @@ Media queries
     display: none;
   }
 
-  #latest-funding-info {
+  .latest-funding-info {
     display: flex;
     flex-direction: column-reverse;
     font-size: 14px;
     height: 70px;
   }
 
-  #latest-funding-info a {
+  .latest-funding-info a {
     flex: 1;
   }
 
   .latest-fund-title {
     margin-bottom: 0;
-    height: 200px;
+    height: 120px;
     justify-content: space-around;
   }
 
@@ -210,9 +205,9 @@ Media queries
     min-height: 850px;
   }
 
-  #funding1,
-  #funding2,
-  #funding3 {
+  .funding1,
+  .funding2,
+  .funding3 {
     margin-bottom: 5px;
     margin-top: 15px;
   }
@@ -241,7 +236,7 @@ Media queries
     margin-bottom: 0;
   }
 
-  #partner-information {
+  .partner-information {
     display: flex;
     flex-direction: column;
     align-items: center;
