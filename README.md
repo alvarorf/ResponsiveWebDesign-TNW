@@ -15,7 +15,7 @@
 ![screenshot](/images/Smallsize.png)
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/alvarorf/ResponsiveWebDesign-TNW/07eaea804fd064fe927f62854540ea9d7177c29f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/ResponsiveWebDesign-TNW/6533bf9c5f334b516891eda2fdfbe3593acba00d/index.html)
 
 ## Getting Started
 
