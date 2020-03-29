@@ -4,15 +4,15 @@
 
 # For a large screen size (Desktop size)
 
-![screenshot](/images/Fullsize.jpeg)
+![screenshot](/images/Fullsize.png)
 
 # For a medium screen size (Tablet size)
 
-![screenshot](/images/Mediumsize.jpeg)
+![screenshot](/images/Mediumsize.png)
 
 # For a small screen size (Phone size)
 
-![screenshot](/images/Smallsize.jpeg)
+![screenshot](/images/Smallsize.png)
 
 ## Live Demo
 [Live Demo Link](https://rawcdn.githack.com/alvarorf/ResponsiveWebDesign-TNW/fd82247f676f5d5757972a9a5a7b33fe020df2f9/index.html)

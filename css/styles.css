@@ -54,10 +54,22 @@ b {
   border-left: 1px solid #eee;
   height: 48px;
   width: 48px;
+  margin-top: 2px;
 }
 
-.nav1-list li .newst {
-  color: white;
+.nav1 li {
+  display: inline;
+  line-height: 32px;
+  margin: 0 5px;
+}
+
+.socialicons {
+  margin-bottom: 30px;
+}
+
+.socialicons li {
+  display: inline;
+  margin: 0 6px;
 }
 
 .techfestival {
@@ -74,6 +86,63 @@ b {
   line-height: 21px;
 }
 
+.mainArticles a {
+  text-decoration: none;
+}
+
+.category-list a {
+  display: block;
+  width: 344px;
+  height: 39px;
+  padding: 6px 0 6px 14px;
+  font-size: 13px;
+  line-height: 19.5px;
+  color: #555;
+}
+
+.invest-story-tags a {
+  padding-left: 2em;
+  padding-top: 1.2em;
+  font-size: 13px;
+  color: #555;
+  margin-right: 1em;
+  line-height: 15px;
+}
+
+.nav2 a {
+  padding-left: 12px;
+  color: #aaa;
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.socialicons a {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  background-color: #333;
+  display: inline-block;
+  border-radius: 30px;
+  border: 2px solid #333;
+}
+
+.socialicons a:hover {
+  background-color: #131313;
+}
+
+.socialicons i {
+  color: white;
+  height: 16px;
+  width: 16px;
+}
+
+.newst {
+  padding-left: 12px;
+  color: #eee;
+}
+
 /* FEATURE ARTICLES */
 
 .mainArticles {
@@ -83,10 +152,6 @@ b {
   grid-gap: 10px;
   grid-template-columns: 2fr 1fr;
   margin: 110px 4px 0 4px;
-}
-
-.mainArticles a {
-  text-decoration: none;
 }
 
 .mainArticles article {
@@ -123,14 +188,9 @@ b {
   padding: 5px 0 15px 0;
 }
 
-.category-list a {
-  display: block;
-  width: 344px;
-  height: 39px;
-  padding: 6px 0 6px 14px;
+.addinfo {
+  color: #aaa;
   font-size: 13px;
-  line-height: 19.5px;
-  color: #555;
 }
 
 .addinfo li {
@@ -145,21 +205,28 @@ b {
   border-bottom: 1px solid rgba(255, 68, 34, 0.25);
 }
 
-.invest-story-tags a {
-  padding-left: 2em;
-  padding-top: 1.2em;
-  font-size: 13px;
-  color: #555;
-  margin-right: 1em;
-  line-height: 15px;
-}
-
 .addinfo a:hover {
   color: #fff;
 }
 
 .invest-story-tags a:hover {
   color: #000;
+}
+
+.nav2 {
+  justify-content: space-between;
+  height: 48px;
+  background-color: #fff;
+}
+
+.nav2 li {
+  display: inline;
+  line-height: 48px;
+  margin: 0 5px;
+}
+
+.nav2 a:hover {
+  color: black;
 }
 
 .buttonsnav2 button {
@@ -230,7 +297,18 @@ b {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 32px;
+  background-color: #000;
+  color: #aaa;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  justify-content: space-between;
   z-index: 10;
+}
+
+.black-navbar a:hover {
+  color: #eee;
 }
 
 .sticky {
@@ -261,7 +339,7 @@ b {
 }
 
 .categories-title-wrapper h2 {
-  width: 44%;
+  width: max-content;
   align-items: center;
   line-height: 20px;
 }
@@ -368,7 +446,7 @@ b {
 .latest-category-news-link {
   width: 244px;
   height: 86px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .latest-category-news-link-container a:hover {
@@ -458,6 +536,7 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
   grid-column: 1/5;
   line-height: 30.8px;
   height: 100%;
+  width: max-content;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.42px;
@@ -731,6 +810,10 @@ a[href="https://index.co/investments?utm_campaign=funding_block&utm_medium=refer
 
 .deals {
   margin-bottom: 0;
+}
+
+.deals-title-width {
+  width: 100%;
 }
 
 .alldeals {
